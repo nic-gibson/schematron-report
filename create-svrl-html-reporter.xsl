@@ -297,7 +297,7 @@
 	<xd:doc>
 		<xd:desc>Turn the current node into the type param</xd:desc>
 	</xd:doc>
-	<xsl:template match="svrl:successful" mode="generate-params">
+	<xsl:template match="svrl:successful-report" mode="generate-params">
 		<axsl:with-param name="type">report</axsl:with-param>
 	</xsl:template>
 
